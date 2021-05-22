@@ -13,6 +13,8 @@
 
 .parent-block {
   position: relative;
+  height: 600px;
+  overflow: scroll;
 }
 
 .childA-block {
@@ -21,19 +23,22 @@
   vertical-align: top;
 }
 
-.childB-block {
+.mainQuestion {
+  font-weight: bold;
+  color: red;
+  font-size: 65px;
   position: relative;
   display: inline-block;
 }
 
 .kanpaiImg {
-  width: 100px;
+  width: 60px;
 }
 
-.kanpaiButton {
+.selectButton {
   font-size: 50px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 20px;
   border-radius: 40px;
 }
 
@@ -41,13 +46,23 @@
   font-size: 30px;
 }
 
+.nameInput {
+  width: 600px;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.postButton {
+  border-radius: 20px;
+  font-size: 25px;
+}
+
 .imgData {
-  width: 700px;
+  width: 500px;
   margin-right: 10px;
 }
 
-.kanpaiName {
-  color: red;
-  font-size: 60px;
+.questionTitle {
+  font-size: 25px;
   font-weight: bold;
 }
